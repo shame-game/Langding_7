@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="vi-VN" data-website-id="1" data-main-object="website.page(131,)" data-add2cart-redirect="1">
+
+
+<!--
+        ___  ___   ___   ___           
+       / _ \|   \ / _ \ / _ \          
+      | (_) | |) | (_) | (_) |         
+       \___/|___/ \___/ \___/          
+   ___ _         _ _                   
+  / __| |_  __ _| | |___ _ _  __ _ ___ 
+ | (__| ' \/ _` | | / -_| ' \/ _` / -_)
+  \___|_||_\__,_|_|_\___|_||_\__, \___|
+                             |___/     
+                             
+  If you're the kind of person who reads source code, you should try our challenge:
+  https://www.odoo.com/jobs/challenge
+-->
+
+
+    
+<!-- Mirrored from www.odoo.com/vi_VN/app/accounting-features by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 Mar 2024 02:06:51 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta name="mobile-web-app-capable" content="yes"/>
+        <meta name="generator" content="Odoo"/>
+      <meta name="google-site-verification" content="pgjyH0qvN69B0m_HrTKV6h8TVnbRXp5etEHo19unPy4"/>
+        <meta name="description" content="Kiểm soát hoạt động tài chính toàn cầu. Tích hợp việc ghi sổ với tất cả các hoạt động của bạn để tránh nhập kép."/>
+        <meta name="keywords" content="odoo s a"/>
+            
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Odoo Kế toán • Tính năng"/>
+        <meta property="og:site_name" content="Odoo S.A."/>
+        <meta property="og:url" content="accounting-features.html"/>
+        <meta property="og:image" content="https://www.odoo.com/web/image/website/1/social_default_image?unique=7fcbb55"/>
+        <meta property="og:description" content="Kiểm soát hoạt động tài chính toàn cầu. Tích hợp việc ghi sổ với tất cả các hoạt động của bạn để tránh nhập kép."/>
+            
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="Odoo Kế toán • Tính năng"/>
+        <meta name="twitter:image" content="https://www.odoo.com/web/image/website/1/social_default_image/300x300?unique=7fcbb55"/>
+        <meta name="twitter:site" content="@odoo"/>
+        <meta name="twitter:description" content="Kiểm soát hoạt động tài chính toàn cầu. Tích hợp việc ghi sổ với tất cả các hoạt động của bạn để tránh nhập kép."/>
+        
+        <link rel="alternate" hreflang="ar" href="https://www.odoo.com/ar/app/accounting-features"/>
+        <link rel="alternate" hreflang="zh-cn" href="https://www.odoo.com/zh_CN/app/accounting-features"/>
+        <link rel="alternate" hreflang="zh-tw" href="https://www.odoo.com/zh_TW/app/accounting-features"/>
+        <link rel="alternate" hreflang="cs" href="https://www.odoo.com/cs_CZ/app/accounting-features"/>
+        <link rel="alternate" hreflang="nl" href="https://www.odoo.com/nl_NL/app/accounting-features"/>
+        <link rel="alternate" hreflang="en" href="https://www.odoo.com/app/accounting-features"/>
+        <link rel="alternate" hreflang="fr" href="https://www.odoo.com/fr_FR/app/accounting-features"/>
+        <link rel="alternate" hreflang="de" href="https://www.odoo.com/de_DE/app/accounting-features"/>
+        <link rel="alternate" hreflang="id" href="https://www.odoo.com/id_ID/app/accounting-features"/>
+        <link rel="alternate" hreflang="it" href="https://www.odoo.com/it_IT/app/accounting-features"/>
+        <link rel="alternate" hreflang="ja" href="https://www.odoo.com/ja_JP/app/accounting-features"/>
+        <link rel="alternate" hreflang="ko" href="https://www.odoo.com/ko_KR/app/accounting-features"/>
+        <link rel="alternate" hreflang="pt" href="https://www.odoo.com/pt_BR/app/accounting-features"/>
+        <link rel="alternate" hreflang="ru" href="https://www.odoo.com/ru_RU/app/accounting-features"/>
+        <link rel="alternate" hreflang="sk" href="https://www.odoo.com/sk_SK/app/accounting-features"/>
+        <link rel="alternate" hreflang="sl" href="https://www.odoo.com/sl_SI/app/accounting-features"/>
+        <link rel="alternate" hreflang="es" href="https://www.odoo.com/es/app/accounting-features"/>
+        <link rel="alternate" hreflang="es-es" href="https://www.odoo.com/es_ES/app/accounting-features"/>
+        <link rel="alternate" hreflang="th" href="https://www.odoo.com/th_TH/app/accounting-features"/>
+        <link rel="alternate" hreflang="tr" href="https://www.odoo.com/tr_TR/app/accounting-features"/>
+        <link rel="alternate" hreflang="uk" href="https://www.odoo.com/uk_UA/app/accounting-features"/>
+        <link rel="alternate" hreflang="vi" href="accounting-features.html"/>
+        <link rel="alternate" hreflang="x-default" href="https://www.odoo.com/app/accounting-features"/>
+        <link rel="canonical" href="accounting-features.html"/>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
+        <title>Odoo Kế toán • Tính năng</title>
+        <link type="image/x-icon" rel="shortcut icon" href="https://odoocdn.com/web/image/website/1/favicon?unique=7fcbb55"/>
+        <link rel="preload" href="https://odoocdn.com/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin=""/>
+        <link type="text/css" rel="stylesheet" href="../../../odoocdn.com/web/assets/1/eecbf45/web.assets_frontend.min.css"/>
+        <script id="web.layout.odooscript" type="text/javascript">
+            var odoo = {
+                csrf_token: "328f380dff03a1e67828b040f5f4bda55ad91d56o1742608992",
+                debug: "",
+            };
+        </script>
+        <script type="text/javascript">
+            odoo.__session_info__ = {"is_admin": false, "is_system": false, "is_website_user": true, "user_id": false, "is_frontend": true, "profile_session": null, "profile_collectors": null, "profile_params": null, "show_effect": true, "currencies": {"137": {"symbol": "AED", "position": "after", "digits": [69, 2]}, "19": {"symbol": "ARS", "position": "after", "digits": [69, 2]}, "21": {"symbol": "AUD", "position": "after", "digits": [69, 2]}, "59": {"symbol": "\u09f3", "position": "after", "digits": [69, 2]}, "27": {"symbol": "\u043b\u0432", "position": "after", "digits": [69, 2]}, "6": {"symbol": "R$", "position": "before", "digits": [69, 2]}, "4": {"symbol": "CAD", "position": "after", "digits": [69, 2]}, "5": {"symbol": "CHF", "position": "after", "digits": [69, 2]}, "7": {"symbol": "CNY", "position": "after", "digits": [69, 2]}, "194": {"symbol": "K\u010d", "position": "after", "digits": [69, 2]}, "10": {"symbol": "kr", "position": "after", "digits": [69, 2]}, "80": {"symbol": "E\u00a3", "position": "after", "digits": [69, 2]}, "1": {"symbol": "\u20ac", "position": "after", "digits": [69, 2]}, "18": {"symbol": "GBP", "position": "after", "digits": [69, 2]}, "25": {"symbol": "HK$", "position": "after", "digits": [69, 2]}, "31": {"symbol": "kn", "position": "after", "digits": [69, 2]}, "193": {"symbol": "Rp", "position": "after", "digits": [69, 2]}, "20": {"symbol": "Rs", "position": "after", "digits": [69, 2]}, "26": {"symbol": "\u00a5", "position": "after", "digits": [69, 2]}, "100": {"symbol": "KSh", "position": "after", "digits": [69, 2]}, "34": {"symbol": "\u20a9", "position": "after", "digits": [69, 2]}, "116": {"symbol": " \u062f.\u0645", "position": "after", "digits": [69, 2]}, "115": {"symbol": "\u20ae", "position": "after", "digits": [69, 2]}, "44": {"symbol": "Rs", "position": "after", "digits": [69, 2]}, "35": {"symbol": "Mex$", "position": "before", "digits": [69, 2]}, "36": {"symbol": "RM", "position": "after", "digits": [69, 2]}, "183": {"symbol": "kr", "position": "before", "digits": [69, 2]}, "37": {"symbol": "$", "position": "after", "digits": [69, 2]}, "38": {"symbol": "Php", "position": "after", "digits": [69, 2]}, "171": {"symbol": "Rs.", "position": "after", "digits": [69, 2]}, "16": {"symbol": "z\u0142", "position": "after", "digits": [69, 2]}, "166": {"symbol": "QR", "position": "after", "digits": [69, 2]}, "30": {"symbol": "kr", "position": "after", "digits": [69, 2]}, "158": {"symbol": "SR", "position": "after", "digits": [69, 2]}, "178": {"symbol": "kr", "position": "after", "digits": [69, 2]}, "39": {"symbol": "$", "position": "after", "digits": [69, 2]}, "40": {"symbol": "\u0e3f", "position": "after", "digits": [69, 2]}, "141": {"symbol": "DT", "position": "after", "digits": [69, 2]}, "146": {"symbol": "NT$", "position": "after", "digits": [69, 2]}, "2": {"symbol": "US$", "position": "before", "digits": [69, 2]}, "24": {"symbol": "\u20ab", "position": "after", "digits": [69, 2]}, "41": {"symbol": "R", "position": "after", "digits": [69, 2]}}, "bundle_params": {"lang": "en_US", "website_id": 1}, "translationURL": "/website/translations", "cache_hashes": {"translations": "52e81c18fd72980fb227ddd5e0fb786fdcfd4ec5"}, "recaptcha_public_key": "6Ldp7rgUAAAAAJF-NZ6k-y0HGEPozP3SeROO_z7F", "geoip_country_code": "VN", "geoip_phone_code": 84, "lang_url_code": "vi_VN", "turnstile_site_key": "0x4AAAAAAADwqVOUIWCeR_H8"};
+            if (!/(^|;\s)tz=/.test(document.cookie)) {
+                const userTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                document.cookie = `tz=${userTZ}; path=/`;
+            }
+        </script>
+        <script type="text/javascript" defer="defer" src="../../../odoocdn.com/web/assets/1/40fbbb9/web.assets_frontend_minimal.min.js" onerror="__odooAssetError=1"></script>
+        <script type="text/javascript" defer="defer" data-src="https://odoocdn.com/web/assets/1/2b5ae38/web.assets_frontend_lazy.min.js" onerror="__odooAssetError=1"></script>
+        
+                    <script>
+            
+                if (!window.odoo) {
+                    window.odoo = {
+                        csrf_token: "328f380dff03a1e67828b040f5f4bda55ad91d56o1742608992",
+                    };
+                }
+                odoo.__session_info__ = Object.assign(odoo.__session_info__ || {}, {
+                    livechatData: {
+                        isAvailable: true,
+                        serverUrl: "https://www.odoo.com",
+                        options: {"header_background_color": "#714b67", "button_background_color": "#714b67", "title_color": "#FFFFFF", "button_text_color": "#FFFFFF", "button_text": "Chat with a human!", "input_placeholder": false, "default_message": "Hello! Are you testing the software, or do you have a paid subscription?", "channel_name": "Odoo Website ALL", "channel_id": 19, "current_partner_id": null, "default_username": "Kh\u00e1ch"},
+                    },
+                });
+            
+                    </script>
+        <script id="tracking_code" defer="1" src="https://www.googletagmanager.com/gtag/js?id=AW-1072265499"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-1072265499');        
+        </script>
+            <noscript>
+                <style>
+                    /* Prevent animated elements hiding */
+                    .o_animate_in_children > * {
+                        opacity: 1!important;
+                        -webkit-transform: scale(1)!important;
+                        -ms-transform: scale(1)!important;
+                        transform: scale(1)!important;
+                    }
+                </style>
+            </noscript>
+        
+    </head>
+    <body>
+
+
+
+        <div id="wrapwrap" class="    o_accounting_features ">
+                <header id="top" data-anchor="true" data-name="Header" data-extra-items-toggle-aria-label="Extra items button" class="   o_no_autohide_menu o_header_fixed o_header_fade_out o_main_header o_not_editable" style=" ">
+                    
+        <div class="o_main_header_main" id="top_menu">
+                <a class="float-start o_logo" href="https://www.odoo.com/vi_VN"><span class="visually-hidden sr-only">Odoo</span></a>
+                <a href="#" role="button" class="o_mobile_menu_toggle o_no_ripple d-inline-block d-md-none">
+                    <i class="fa fa-bars" focusable="false"></i><span class="visually-hidden sr-only">Menu</span>
+                </a>
+                <ul class="o_header_buttons list-unstyled">
+                    <li class="nav-item d-md-none">
+                    </li>
+            <li class="o_wsale_my_cart nav-item me-lg-0 d-none">
+                <a href="https://www.odoo.com/vi_VN/shop/cart" class="nav-link px-1" aria-label="Shopping Cart">
+                    <i class="fa fa-shopping-cart"></i><sup class="my_cart_quantity rounded-pill bg-o-color-1 ms-1 py-1 px-2"></sup>
+                </a>
+            </li>
+            <li class="nav-item o_no_autohide_item">
+                <a href="https://www.odoo.com/web/login" class="nav-link">Đăng nhập</a>
+            </li>
+        
+        
+        <li class="nav-item o_no_autohide_item"><a class="btn btn-primary btn-sm text-nowrap trial_link" href="https://www.odoo.com/vi_VN/trial">Dùng thử miễn phí</a>
+        </li>
+                </ul>
+                <ul class="o_primary_nav">
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle o-no-caret">
+                                <span class="o_app_name_title">
+                                    Kế toán
+                                </span>
+                            </a>
+                        <div class="start-0 dropdown-menu o_secondary_nav">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3 o_finance_apps ">
+                                        <div class="o_nav_app_family">Tài chính</div>
+                                        <ul>
+                                            <li><a href="accounting.html">Kế toán</a></li>
+                                            <li><a href="invoicing.html">Hóa đơn</a></li>
+                                            <li><a href="expenses.html">Chi phí</a></li>
+                                            <li><a href="spreadsheet.html">Bảng tính (BI)</a></li>
+                                            <li><a href="documents.html">Tài liệu</a></li>
+                                            <li><a href="sign.html">Ký tên</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 o_sale_apps ">
+                                        <div class="o_nav_app_family">Bán hàng</div>
+                                        <ul>
+                                            <li><a href="crm.html">CRM</a></li>
+                                            <li><a href="sales.html">Bán hàng</a></li>
+                                            <li><a href="point-of-sale-shop.html">Điểm bán hàng - Cửa hàng</a></li>
+                                            <li><a href="point-of-sale-restaurant.html">Điểm bán hàng - Nhà hàng</a></li>
+                                            <li><a href="subscriptions.html">Đăng ký</a></li>
+                                            <li><a href="rental.html">Cho thuê</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 o_website_apps ">
+                                        <div class="o_nav_app_family">Trang web</div>
+                                        <ul>
+                                            <li><a href="website.html">Trình tạo Trang web</a></li>
+                                            <li><a href="ecommerce.html">Thương mại Điện tử</a></li>
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="forum.html">Diễn đàn</a></li>
+                                            <li><a href="live-chat.html">Trò chuyện Trực tiếp</a></li>
+                                            <li><a href="elearning.html">Học trực tuyến</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 o_inventory_apps ">
+                                        <div class="o_nav_app_family">Tồn kho và Sản xuất </div>
+                                        <ul>
+                                            <li><a href="inventory.html">Tồn kho</a></li>
+                                            <li><a href="manufacturing.html">Sản xuất</a></li>
+                                            <li><a href="plm.html">PLM</a></li>
+                                            <li><a href="purchase.html">Mua hàng</a></li>
+                                            <li><a href="maintenance.html">Bảo trì</a></li>
+                                            <li><a href="quality.html">Chất lượng</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3 o_hr_apps ">
+                                        <div class="o_nav_app_family">Nhân sự</div>
+                                        <ul>
+                                            <li><a href="employees.html">Nhân viên</a></li>
+                                            <li><a href="recruitment.html">Tuyển dụng </a></li>
+                                            <li><a href="time-off.html">Nghỉ phép</a></li>
+                                            <li><a href="appraisals.html">Đánh giá</a></li>
+                                            <li><a href="referrals.html">Giới thiệu</a></li>
+                                            <li><a href="fleet.html">Đội xe</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 o_marketing_apps ">
+                                        <div class="o_nav_app_family">Marketing</div>
+                                        <ul>
+                                            <li><a href="social-marketing.html">Marketing trên Mạng xã hội</a></li>
+                                            <li><a href="email-marketing.html">Marketing qua Email</a></li>
+                                            <li><a href="sms-marketing.html">Marketing qua SMS</a></li>
+                                            <li><a href="events.html">Sự kiện</a></li>
+                                            <li><a href="marketing-automation.html">Tự động hóa Marketing </a></li>
+                                            <li><a href="surveys.html">Khảo sát</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 o_services_apps ">
+                                        <div class="o_nav_app_family">Dịch vụ</div>
+                                        <ul>
+                                            <li><a href="project.html">Dự án </a></li>
+                                            <li><a href="timesheet.html">Bảng chấm công</a></li>
+                                            <li><a href="field-service.html">Dịch vụ Hiện trường</a></li>
+                                            <li><a href="helpdesk.html">Hỗ trợ </a></li>
+                                            <li><a href="planning.html">Kế hoạch</a></li>
+                                            <li><a href="appointments.html">Lịch hẹn</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 o_productivity_apps ">
+                                        <div class="o_nav_app_family">Năng suất</div>
+                                        <ul>
+                                            <li><a href="discuss.html">Thảo luận </a></li>
+                                            <li><a href="approvals.html">Phê duyệt</a></li>
+                                            <li><a href="iot.html">IoT</a></li>
+                                            <li><a href="voip.html">VoIP</a></li>
+                                            <li><a href="knowledge.html">Kiến thức</a></li>
+                                            <li><a href="whatsapp.html">WhatsApp<span class="badge text-bg-primary p-1 ms-2">Mới!</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="o_store_link d-md-flex justify-content-md-center">
+                                <a class="mx-md-3 px-3" href="https://apps.odoo.com/apps/modules"><i class="fa fa-cube fa-fw me-2"></i>Ứng dụng của bên thứ ba</a>
+                                <a class="mx-md-3 px-3" href="studio.html"><i class="fa fa-pencil fa-fw me-2"></i>Studio Odoo</a>
+                                <a href="https://www.odoo.sh/" class="mx-md-3 px-3"><i class="fa fa-cloud fa-fw me-2"></i>Nền tảng Đám mây Odoo</a>
+                            </span>
+                        </div>
+                    </li>
+                        <span class="border-end border-default me-lg-2 d-none d-md-inline"></span>
+    <li role="presentation" class="nav-item">
+                    <a role="menuitem" href="accounting.html" class="nav-link ">
+                    <span>Tổng quan</span>
+                    </a>
+            </li>
+    <li role="presentation" class="nav-item">
+                    <a role="menuitem" href="accounting-features.html" class="nav-link active">
+                    <span>Tính năng</span>
+                    </a>
+            </li>
+    <li role="presentation" class="nav-item">
+                    <a role="menuitem" href="invoice-automation.html" class="nav-link ">
+                    <span>Tự động hoá</span>
+                    </a>
+            </li>
+    <li role="presentation" class="nav-item">
+                    <a role="menuitem" href="https://www.odoo.com/vi_VN/accounting-firms" class="nav-link ">
+                    <span>Tìm kế toán</span>
+                    </a>
+            </li>
+                </ul>
+            </div>
+    
+        </header>
+                <main>
+                    
+                
+                
+                <div id="wrap" class="oe_structure">
+                    <section class="s_affix">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-3 d-print-none d-none d-lg-block" role="complementary">
+                                    <nav id="features_affix" data-bs-spy="affix"></nav>
+                                </div>
+                                <div class="col-lg-9" role="main">
+
+                                    <section>
+                                        <h2>Tiết kiệm thời gian</h2>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>Tương thích trên toàn cầu</h4>
+                                                <p>Odoo Accounting có thể được sử dụng ở bất kỳ quốc gia nào. Gói bản địa hóa tài chính cấu hình trước cơ sở dữ liệu của bạn theo thuế, vị trí tài chính, hệ thống tài khoản và báo cáo pháp lý của quốc gia bạn để bạn có thể bắt đầu làm việc ngay lập tức.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Ứng dụng trên thiết bị di động</h4>
+                                                <p>Ứng dụng gốc iOS và Android chứa tất cả tính năng. Truyền dữ liệu thấp để có được trải nghiệm người dùng nhanh ngay cả khi kết nối Internet chậm.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Số hóa hóa đơn bằng AI </h4>
+                                                <p>Tải lên các tệp định dạng hình ảnh hoặc PDF đã quét và để Odoo tự động mã hóa chúng nhờ tính năng số hóa bằng AI.</p>
+                                                <a href="invoice-automation.html" class="btn btn-primary mb-3">Kiểm tra công cụ nhận dạng của Odoo</a>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Đa công ty</h4>
+                                                <p>Chỉ cần thanh toán một gói đăng ký và bạn có thể đưa tất cả công ty con của mình vào cùng một hệ thống với các báo cáo tổng hợp theo thời gian thực. Bạn cũng có thể tự động hóa quy trình kinh doanh bằng các quy tắc liên công ty.</p>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section>
+                                        <h2>Khoản phải thu và phải trả</h2>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>Mẫu hóa đơn hấp dẫn</h4>
+                                                <p>Tinh chỉnh thiết kế tài liệu bằng cách điều chỉnh màu sắc và phông chữ, đồng thời chọn mẫu hóa đơn phù hợp nhất cho công ty của bạn.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Hóa đơn nháp nhanh</h4>
+                                                <p>Hóa đơn nháp được Odoo tự động tạo dựa trên đơn bán hàng, dịch vụ đăng ký, bảng chấm công hoặc phiếu xuất kho. </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Giấy báo có và hoàn tiền</h4>
+                                                <p>Trực tiếp tạo giấy báo có khách hàng hoặc nhà cung cấp từ hóa đơn bán hàng hoặc hóa đơn mua hàng.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Hạn mức tín dụng bán hàng</h4>
+                                                <p>Kích hoạt cảnh báo khi việc tạo Hóa đơn và Đơn bán hàng cho Đối tác vượt quá giới hạn tổng số tiền phải thu của họ.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Hỗ trợ nhiều đơn vị tiền tệ</h4>
+                                                <p>Tỷ giá tiền tệ được cập nhật hàng ngày.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Tổng quan về bút toán</h4>
+                                                <p>Xem lại, chỉnh sửa và đối chiếu các bút toán của bạn theo loại sổ nhật ký: mua hàng, bán hàng, ngân hàng và tiền mặt, và hoạt động khác.</p>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section>
+                                        <h2>Nhận thanh toán dễ dàng</h2>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>Thanh toán online</h4>
+                                                <p>Cho phép khách hàng thanh toán online thông qua các phương thức thanh toán mà họ lựa chọn. Odoo cũng hỗ trợ các cổng thanh toán chính như Stripe, Authorize.net, Ogone, PayPal, Adyen, Alipay,...</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Cổng thông tin khách hàng</h4>
+                                                <p>Trao quyền cho khách hàng của bạn nhờ Cổng thông tin khách hàng. Cho phép họ xem, tải xuống và thanh toán hóa đơn online. Họ có thể quản lý các gói đăng ký, ký tài liệu, theo dõi trạng thái đơn hàng, gửi tin nhắn,...</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Tự động theo dõi</h4>
+                                                <p>Đảm bảo hoạt động thu tín dụng bằng các quy trình tự động: email, thư, SMS follow-up và các tác vụ tự động để nhắc nhở khách hàng của bạn khi cần thiết.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Thanh toán trên thiết bị di động bằng mã QR</h4>
+                                                <p>Thêm mã QR vào hóa đơn của bạn để khách hàng có thể thanh toán dễ dàng bằng ứng dụng ngân hàng di động của họ.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Thanh toán trực tiếp</h4>
+                                                <p>Với ghi nợ trực tiếp SEPA, bạn tự động thu các khoản thanh toán tự động của mình và tạo các uỷ quyền ghi nợ trực tiếp khách hàng.</p>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section>
+                                        <h2>Thanh toán hóa đơn</h2>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>Tự động chuyển khoản</h4>
+                                                <p>Tự động hóa thanh toán cho nhà cung cấp trên toàn khu vực SEPA bằng Chuyển khoản tín dụng SEPA (SCT).</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Thanh toán Hàng loạt</h4>
+                                                <p>Sử dụng thanh toán hàng loạt để nhóm các khoản thanh toán khác nhau, đồng thời giúp quá trình đối chiếu và gửi tiền bằng séc ngân hàng trở nên dễ dàng hơn.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>In séc</h4>
+                                                <p>Nhận đề xuất thanh toán hóa đơn mua hàng và in séc theo đợt chỉ bằng vài cú nhấp chuột.</p>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section>
+                                        <h2>Ngân hàng & Tiền mặt</h2>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>Tự động hóa nhập dữ liệu ngân hàng</h4>
+                                                <p>Đồng bộ hóa sao kê ngân hàng của bạn và tận hưởng quy trình tự động nhập dữ liệu ngân hàng ngay trong Odoo.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Quản lý máy tính tiền</h4>
+                                                <p>Dễ dàng theo dõi mọi giao dịch tiền mặt với tính năng số dư đầu và cuối kỳ. </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Nhập sao kê ngân hàng </h4>
+                                                <p>Nhập sao kê ngân hàng ở bất kỳ định dạng nào bạn muốn: tệp .OFX, .QIF, .CSV, .CAMT.053 hoặc CODA.</p>
+                                                <button class="btn btn-primary supported_inst_btn mb-3" data-country-name="Việt Nam" data-country-code="VN" data-lang="vi_VN">
+                                                Xem danh sách các tổ chức hỗ trợ 
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section>
+                                        <h2>Đối chiếu dễ dàng</h2>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>Công cụ đối chiếu thông minh</h4>
+                                                <p>Tự động nhận đề xuất điều chỉnh và ghi nhận các hạng mục bút toán bổ sung một cách nhanh chóng. Giao diện đối chiếu thủ công cho cả hóa đơn còn mở và đã thanh toán. Nắm bắt số tài khoản dựa trên lần đối chiếu thủ công đầu tiên.</p>
+                                                <p>Odoo tự động khớp 95% hóa đơn và thanh toán. Đối với 5% còn lại, công cụ so khớp thông minh xử lý cực kỳ nhanh chóng và tiện lợi.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Dễ dàng kiểm tra các khoản chưa thanh toán</h4>
+                                                <p>Nhận đề xuất đối chiếu một phần và toàn bộ ngay từ hóa đơn hoặc sao kê ngân hàng.</p>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section>
+                                        <h2>Báo cáo pháp lý</h2>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>Báo cáo động và chuyên sâu</h4>
+                                                <p>Mọi thay đổi trong kế toán của bạn đều được hiển thị trực tiếp và cho phép kiểm toán chuyên sâu để hiểu từng giá trị được nhập.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Quản lý thuế nâng cao</h4>
+                                                <p>Công cụ thuế của Odoo hỗ trợ nhiều cách tính thuế: bao gồm/không bao gồm giá, phần trăm, lưới, thuế chồng thuế, miễn thuế một phần,...</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Báo cáo thuế</h4>
+                                                <p>Nhận báo cáo thuế của bạn theo kế toán dồn tích hoặc kế toán dòng tiền theo quy định về thuế của quốc gia bạn.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Báo cáo kiểm tra thuế </h4>
+                                                <p>Dễ dàng kiểm tra cách tính toán báo cáo thuế cho các đợt kiểm toán thông qua báo cáo kiểm toán thuế, chỉ bằng cách nhấp vào một dòng.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Ngưỡng chuyển đổi lập hóa đơn</h4>
+                                                <p>Các hoá đơn tính đến ngày này sẽ không được tính là bút toán kế toán</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Thuế cơ sở dòng tiền</h4>
+                                                <p>Báo cáo thu nhập và chi phí của bạn cho cơ quan quản lý tài chính nhờ tính năng cơ sở dòng tiền của Odoo.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section>
+                                        <h2>Kế toán phân tích</h2>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>Phân tầng tài khoản chi phí</h4>
+                                                <p>Tự động cấu trúc các tài khoản phân tích của bạn dựa trên dự án, hợp đồng, phòng ban,...</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Phân phối phân tích</h4>
+                                                <p>Tiện ích JS phân tích trên Hóa đơn/Hóa đơn thanh toán để tạo phân phối phân tích ngay lập tức và trực tiếp từ hóa đơn của bạn. Tạo sẵn mẫu theo nhu cầu của bạn để tăng tốc hơn nữa.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Nhiều kế hoạch</h4>
+                                                <p>Quản lý nhiều kế hoạch phân tích và kế hoạch phụ kèm theo điều kiện áp dụng để định hình các trục/đa chiều phân tích của riêng bạn dành cho công ty của mình.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Quản lý ngân sách</h4>
+                                                <p>Theo dõi ngân sách và so sánh hiệu suất thực tế với ngân sách khác. Quản lý ngân sách kế toán tài chính hoặc kế toán quản trị. </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Chỉnh sửa hàng loạt</h4>
+                                                <p>Có quyền truy cập vào tất cả các mục phân tích của bạn và thoải mái trực tiếp chỉnh sửa hàng loạt mà không cần mở bất kỳ hóa đơn nào. </p>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section>
+                                        <h2>Tài sản, chi phí & ghi nhận doanh thu</h2>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>Quản lý tài sản</h4>
+                                                <p>Theo dõi tài sản và bảng khấu hao, đồng thời tạo các bút toán khấu hao tự động. Quản lý tất cả các sự kiện liên quan tới tài sản của bạn chỉ trong vài cú nhấp chuột.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Chi phí & ghi nhận doanh thu</h4>
+                                                <p>Quản lý hợp đồng nhiều năm, tự động hóa các bút toán doanh thu và chi phí hoãn lại, đồng thời có được cái nhìn tổng quan rõ ràng về doanh thu và chi phí định kỳ của bạn.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Doanh thu & chi phí hoãn lại một lần và chỉnh sửa hàng loạt</h4>
+                                                <p>Sử dụng tính năng cut-off để điều chỉnh số tiền cụ thể trong các bút toán của các kỳ khác nhau.</p>
+                                                <p>Odoo cân đối một phần số tiền và chuyển số tiền đó vào tài khoản riêng mà bạn đã chọn. Nhờ Bút toán tự động, bạn cũng có thể chỉnh sửa hàng loạt nhiều bút toán cùng lúc.</p>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section>
+                                        <h2>Kết nối</h2>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>Dịch vụ web API</h4>
+                                                <p>Kết nối ứng dụng bên thứ ba với dịch vụ web API của Odoo. Odoo hỗ trợ mọi ngôn ngữ lập trình: python, PHP, java, c#, ruby,...</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Xuất nhập dữ liệu linh hoạt</h4>
+                                                <p>Sử dụng công cụ xuất-nhập được tích hợp sẵn để nhập hoặc xuất hàng loạt. Bạn có thể xuất và nhập cùng một dữ liệu để cập nhật hàng loạt thông qua bảng tính Excel. </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Tích hợp TaxCloud</h4>
+                                                <p>Tự động áp dụng đúng thuế suất theo mã Zip của Hoa Kỳ và danh mục sản phẩm. TaxCloud tính thuế bán hàng theo thời gian thực cho từng bang, thành phố, và đặc khu tại Hoa Kỳ.</p>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section>
+                                        <h2>Tích hợp</h2>
+                                        <div class="row">
+                                            <div class="col-md-6">
+        
+        <div class="x_wd_app_card d-flex flex-column h-100 position-relative p-4">
+            <div class="d-flex align-items-center">
+                <img width="60" height="60" class="bg-white shadow-sm rounded-1 p-2 me-3" src="http://download.odoocdn.com/icons/sale/static/description/icon.svg" alt="Odoo Bán hàng icon" loading="lazy"/>
+                <h5 class="my-0">Bán hàng</h5>
+            </div>
+            <p class="my-3">Tự động tạo hóa đơn khách hàng từ đơn bán hàng, nhiệm vụ hoặc đơn giao hàng của bạn.</p>
+            <a class="stretched-link mt-auto" href="sales.html">Discover ⟶</a>
+        </div>
+                                            </div>
+                                            <div class="col-md-6">
+        
+        <div class="x_wd_app_card d-flex flex-column h-100 position-relative p-4">
+            <div class="d-flex align-items-center">
+                <img width="60" height="60" class="bg-white shadow-sm rounded-1 p-2 me-3" src="http://download.odoocdn.com/icons/stock/static/description/icon.svg" alt="Odoo Tồn kho icon" loading="lazy"/>
+                <h5 class="my-0">Tồn kho</h5>
+            </div>
+            <p class="my-3">Thực hiện định giá hàng tồn kho định kỳ hoặc thường xuyên. Tạo bút toán kế toán tự động theo giá tiêu chuẩn, giá trung bình trong chuỗi cung ứng FIFO.</p>
+            <a class="stretched-link mt-auto" href="inventory.html">Discover ⟶</a>
+        </div>
+                                            </div>
+                                            <div class="col-md-6">
+        
+        <div class="x_wd_app_card d-flex flex-column h-100 position-relative p-4">
+            <div class="d-flex align-items-center">
+                <img width="60" height="60" class="bg-white shadow-sm rounded-1 p-2 me-3" src="http://download.odoocdn.com/icons/purchase/static/description/icon.svg" alt="Odoo Mua hàng icon" loading="lazy"/>
+                <h5 class="my-0">Mua hàng</h5>
+            </div>
+            <p class="my-3">Kiểm soát hóa đơn từ nhà cung ứng chỉ bằng vài cú nhấp chuột. Không cần thiết phải ghi lại mọi thứ, những hóa đơn này được Odoo đề xuất dựa trên lệnh mua và việc nhập hàng.</p>
+            <a class="stretched-link mt-auto" href="purchase.html">Discover ⟶</a>
+        </div>
+                                            </div>
+                                            <div class="col-md-6">
+        
+        <div class="x_wd_app_card d-flex flex-column h-100 position-relative p-4">
+            <div class="d-flex align-items-center">
+                <img width="60" height="60" class="bg-white shadow-sm rounded-1 p-2 me-3" src="http://download.odoocdn.com/icons/website_sale/static/description/icon.svg" alt="Odoo Thương mại điện tử icon" loading="lazy"/>
+                <h5 class="my-0">Thương mại điện tử</h5>
+            </div>
+            <p class="my-3">Nhận báo cáo tự động về tất cả các giao dịch thương mại điện tử của bạn trong tài khoản: bán hàng, thanh toán, hoàn tiền, vận chuyển, v.v.</p>
+            <a class="stretched-link mt-auto" href="ecommerce.html">Discover ⟶</a>
+        </div>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            
+        <div id="o_shared_blocks" class="oe_unremovable"></div>
+                </main>
+                <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc  o_footer_slideout">
+                    <div id="footer" class="container o_not_editable ">
+                <span class="o_logo o_logo_inverse d-block mx-auto o_footer_logo my-5"></span>
+                <div class="row">
+                    <div class="col-12 col-lg-7 col-xl-6">
+                        <div class="row">
+                            <div class="col-12 col-md-4 mb-3 mb-md-0">
+                                <div class="row">
+                                    <div class="col-6 col-md-12">
+                                        <span class="o_footer_title">Cộng đồng</span>
+                                        <ul class="o_footer_links list-unstyled">
+                                            <li><a href="https://www.odoo.com/vi_VN/slides">Khóa học</a></li>
+                                            <li><a href="https://www.odoo.com/vi_VN/page/docs">Tài liệu</a></li>
+                                            <li><a href="https://www.odoo.com/vi_VN/forum/help-1">Diễn đàn</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-md-12">
+                                        <span class="o_footer_title">Mã nguồn mở</span>
+                                        <ul class="o_footer_links list-unstyled">
+                                            <li><a href="https://www.odoo.com/vi_VN/page/download">Tải xuống</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="https://github.com/odoo/odoo">Github</a></li>
+                                            <li><a href="https://runbot.odoo.com/">Runbot</a></li>
+                                            <li><a href="https://github.com/odoo/odoo/wiki/Translations">Dịch thuật</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <span class="o_footer_title">Dịch vụ</span>
+                                <ul class="o_footer_links list-unstyled">
+                                    <li><a href="https://www.odoo.sh/">Lưu trữ Odoo.sh</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="https://www.odoo.com/vi_VN/help">Hỗ trợ</a></li>
+                                    <li><a href="https://upgrade.odoo.com/">Nâng cấp</a></li>
+                                    <li><a href="https://www.odoo.com/vi_VN/page/developers-on-demand">Phát triển tùy chỉnh</a></li>
+                                    <li><a href="https://www.odoo.com/vi_VN/education/program">Giáo dục</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="https://www.odoo.com/vi_VN/accounting-firms">Tìm kế toán</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="https://www.odoo.com/vi_VN/partners">Tìm đối tác</a></li>
+                                    <li><a href="https://www.odoo.com/vi_VN/become-a-partner">Trở thành đối tác</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-md-4 mb64">
+                                <span class="o_footer_title">Giới thiệu công ty</span>
+                                <ul class="o_footer_links list-unstyled">
+                                    <li><a href="https://www.odoo.com/vi_VN/page/about-us">Công ty của chúng tôi</a></li>
+                                    <li><a href="https://www.odoo.com/vi_VN/page/brand-assets">Tài sản thương hiệu</a></li>
+                                    <li><a href="https://www.odoo.com/vi_VN/contactus">Liên hệ với chúng tôi</a></li>
+                                    <li><a href="https://www.odoo.com/vi_VN/jobs">Việc làm</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="https://www.odoo.com/vi_VN/events">Sự kiện</a></li>
+                                    <li><a href="http://podcast.odoo.com/">Podcast</a></li>
+                                    <li><a href="https://www.odoo.com/vi_VN/blog">Blog</a></li>
+                                    <li><a href="https://www.odoo.com/vi_VN/blog/6">Khách hàng</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="https://www.odoo.com/vi_VN/legal">Pháp lý</a> <span class="small text-muted">•</span> <a href="https://www.odoo.com/vi_VN/privacy">Riêng tư</a></li>
+                                    <li><a href="https://www.odoo.com/vi_VN/security">Bảo mật</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 col-xl-5 offset-xl-1">
+                        <div class="d-flex align-items-center justify-content-between">
+        
+            <div class="js_language_selector o_language_selector dropdown d-print-none">
+                <button type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true" class="btn border-0 dropdown-toggle btn-sm btn-outline-secondary">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/vnfe4d.png?height=25" alt=" Tiếng Việt" loading="lazy"/>
+                    <span class=""> Tiếng Việt</span>
+                </button>
+                <div role="menu" class="dropdown-menu ">
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/ar/app/accounting-features" data-url_code="ar" title=" الْعَرَبيّة">
+    <img class="o_lang_flag " src="https://odoocdn.com/web/image/res.lang/23/flag_image?height=25" alt=" الْعَرَبيّة" loading="lazy"/>
+                            <span class=""> الْعَرَبيّة</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/zh_CN/app/accounting-features" data-url_code="zh_CN" title=" 简体中文">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/cnfe4d.png?height=25" alt=" 简体中文" loading="lazy"/>
+                            <span class=""> 简体中文</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/zh_TW/app/accounting-features" data-url_code="zh_TW" title=" 繁體中文">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/twfe4d.png?height=25" alt=" 繁體中文" loading="lazy"/>
+                            <span class=""> 繁體中文</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/cs_CZ/app/accounting-features" data-url_code="cs_CZ" title=" Čeština">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/czfe4d.png?height=25" alt=" Čeština" loading="lazy"/>
+                            <span class=""> Čeština</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/nl_NL/app/accounting-features" data-url_code="nl_NL" title=" Nederlands">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/nlfe4d.png?height=25" alt=" Nederlands" loading="lazy"/>
+                            <span class=""> Nederlands</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/app/accounting-features" data-url_code="en_US" title="English">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/usfe4d.png?height=25" alt="English" loading="lazy"/>
+                            <span class="">English</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/fr_FR/app/accounting-features" data-url_code="fr_FR" title=" Français">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/frfe4d.png?height=25" alt=" Français" loading="lazy"/>
+                            <span class=""> Français</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/de_DE/app/accounting-features" data-url_code="de_DE" title=" Deutsch">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/defe4d.png?height=25" alt=" Deutsch" loading="lazy"/>
+                            <span class=""> Deutsch</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/id_ID/app/accounting-features" data-url_code="id_ID" title=" Bahasa Indonesia">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/idfe4d.png?height=25" alt=" Bahasa Indonesia" loading="lazy"/>
+                            <span class=""> Bahasa Indonesia</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/it_IT/app/accounting-features" data-url_code="it_IT" title=" Italiano">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/itfe4d.png?height=25" alt=" Italiano" loading="lazy"/>
+                            <span class=""> Italiano</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/ja_JP/app/accounting-features" data-url_code="ja_JP" title=" 日本語">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/jpfe4d.png?height=25" alt=" 日本語" loading="lazy"/>
+                            <span class=""> 日本語</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/ko_KR/app/accounting-features" data-url_code="ko_KR" title=" 한국어 (KR)">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/krfe4d.png?height=25" alt=" 한국어 (KR)" loading="lazy"/>
+                            <span class=""> 한국어 (KR)</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/pt_BR/app/accounting-features" data-url_code="pt_BR" title=" Português (BR)">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/brfe4d.png?height=25" alt=" Português (BR)" loading="lazy"/>
+                            <span class=""> Português (BR)</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/ru_RU/app/accounting-features" data-url_code="ru_RU" title=" русский язык">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/rufe4d.png?height=25" alt=" русский язык" loading="lazy"/>
+                            <span class=""> русский язык</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/sk_SK/app/accounting-features" data-url_code="sk_SK" title=" Slovenský jazyk">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/skfe4d.png?height=25" alt=" Slovenský jazyk" loading="lazy"/>
+                            <span class=""> Slovenský jazyk</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/sl_SI/app/accounting-features" data-url_code="sl_SI" title=" slovenščina">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/sife4d.png?height=25" alt=" slovenščina" loading="lazy"/>
+                            <span class=""> slovenščina</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/es/app/accounting-features" data-url_code="es" title=" Español (América Latina)">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/419fe4d.png?height=25" alt=" Español (América Latina)" loading="lazy"/>
+                            <span class=""> Español (América Latina)</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/es_ES/app/accounting-features" data-url_code="es_ES" title=" Español">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/esfe4d.png?height=25" alt=" Español" loading="lazy"/>
+                            <span class=""> Español</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/th_TH/app/accounting-features" data-url_code="th_TH" title=" ภาษาไทย">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/thfe4d.png?height=25" alt=" ภาษาไทย" loading="lazy"/>
+                            <span class=""> ภาษาไทย</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/tr_TR/app/accounting-features" data-url_code="tr_TR" title=" Türkçe">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/trfe4d.png?height=25" alt=" Türkçe" loading="lazy"/>
+                            <span class=""> Türkçe</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang " role="menuitem" href="https://www.odoo.com/uk_UA/app/accounting-features" data-url_code="uk_UA" title=" українська">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/uafe4d.png?height=25" alt=" українська" loading="lazy"/>
+                            <span class=""> українська</span>
+                        </a>
+                        <a class="dropdown-item js_change_lang active" role="menuitem" href="accounting-features.html" data-url_code="vi_VN" title=" Tiếng Việt">
+    <img class="o_lang_flag " src="../../../odoocdn.com/base/static/img/country_flags/vnfe4d.png?height=25" alt=" Tiếng Việt" loading="lazy"/>
+                            <span class=""> Tiếng Việt</span>
+                        </a>
+                </div>
+            </div>
+        
+                            
+                        </div>
+                        <hr class="mt-3 mb-4"/>
+                        <p class="small text-muted">Odoo là bộ ứng dụng kinh doanh có mã nguồn mở đáp ứng tất cả các nhu cầu của công ty bạn: CRM, thương mại điện tử, kế toán, tồn kho, điểm bán hàng, quản lý dự án, v.v.</p>
+                        <p class="small text-muted mb-4">Định hướng giá trị riêng biệt của Odoo là tích hợp hoàn toàn và dễ dàng sử dụng. </p>
+                        <div class="o_footer_social_media mb-4">
+                            <a target="_blank" href="https://www.facebook.com/odoo" class="me-3"><i class="fa fa-fw fa-facebook"></i></a>
+                            <a target="_blank" href="https://twitter.com/Odoo" class="me-3"><i class="fa fa-fw fa-twitter"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/company/odoo" class="me-3"><i class="fa fa-fw fa-linkedin"></i></a>
+                            <a target="_blank" href="https://github.com/odoo/odoo" class="me-3"><i class="fa fa-fw fa-github"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/odoo.official" class="me-3"><i class="fa fa-fw fa-instagram"></i></a>
+                            <a target="_blank" href="https://www.tiktok.com/@odoo" class="me-3"><i class="fa fa-fw fa-tiktok"></i></a>
+                            <a target="_blank" href="mailto:info@odoo.com" class="me-3"><i class="fa fa-fw fa-envelope"></i></a>
+                            <a target="_blank" class="me-3" href="tel:+3222903490"><i class="fa fa-fw fa-phone"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="o_footer_copyright o_not_editable">
+                <div class="container py-3 text-center">
+                    <a class="small" href="website.html">Website made with <span class="o_logo o_logo_inverse o_logo_15"></span></a>
+                </div>
+            </div>
+    </footer>
+            </div>
+  
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         
+        
+        
+         
+
+
+         
+      
+      
+          
+            <div id="o_live_modal" class="modal fade" tabindex="-1" role="dialog" contentEditable="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="mt8"><b>Odoo Experience</b> on YouTube</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"><span title="Close" class="fa fa-times"></span></button>
+                            <p class="text-black">
+                                <b>1.</b> Use the live chat to ask your questions.<br/>
+                                <b>2.</b> The operator answers within a few minutes.
+                            </p>
+                        </div>
+                        <div class="modal-body bg-200">
+                            <img src="../../../odoocdn.com/openerp_website/static/src/img/2016/live-support/info.gif" class="img img-fluid" alt="Live support on Youtube" loading="lazy"/>
+                        </div>
+                        <div class="modal-footer">
+                            <a class="btn btn-primary btn-lg" target="_blank" href="https://www.odoo.com/event/odoo-experience-2023-3735/track">Watch now<i class="fa fa-1x fa-long-arrow-right ml8"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </body>
+
+<!-- Mirrored from www.odoo.com/vi_VN/app/accounting-features by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 Mar 2024 02:06:51 GMT -->
+</html>
